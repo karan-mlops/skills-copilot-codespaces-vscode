@@ -1,14 +1,11 @@
 {
-  "name": "MERN Codespace",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-20",
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "GitHub.copilot",
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode"
-      ]
+    // Name this configuration
+    "name": "Codespace for Skills!",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot"
+            ]
+        }
     }
-  },
-  "postCreateCommand": "npm install"
 }
